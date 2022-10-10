@@ -1,0 +1,14 @@
+  kind: ClusterSelector
+  apiVersion: configmanagement.gke.io/v1
+  metadata: 
+    name: hello
+    spec: 
+      selector: 
+        matchLabels: 
+          canary: 20
+          state: cali
+          color: blue
+        
+      
+    
+  
